@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" version="1.0" id="reddit-goodies">
+  <name>reddit goodies</name>
+  <description>
+      A bunch of goodies to make reddit life better.
+  </description>
+  <author href="http://quux.com.ar" email="quuxbaz@gmail.com">Pablo Flouret</author>
+  <icon src="img/alien.png" width="64" height="64"/>
+
+  <access origin="http://reddit.com/" subdomains="true"/>
+
+  <preference name="popupWidth" value="800"/>
+  <preference name="popupHeight" value="570"/>
+</widget>

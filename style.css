@@ -1,0 +1,28 @@
+body {
+    font-family: helvetica, tahoma, verdana, sans-serif;
+    font-size: 0.8em;
+    color: #333;
+}
+
+a { color: blue; text-decoration: none; }
+a:hover { color: red; text-decoration: underline; }
+
+img { vertical-align: middle; border: none; }
+
+#msgbox {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+    width: 98%;
+    z-index: -1;
+    opacity: 1;
+    -o-transition-property: opacity;
+    -o-transition-timing-function: ease-in;
+    transition-property: opacity;
+    transition-timing-function: ease-in;
+}
+#msgbox.hidden { opacity: 0; }
+#msgbox.message { background-color: #ffffc7; }
+#msgbox.error { background-color: #fdc0c0; }
+#msgbox.success { background-color: #d5ffcf; }
+
