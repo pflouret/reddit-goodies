@@ -1,5 +1,5 @@
 //==UserScript==
-// @include http://*reddit.com/r/fffffffuuuuuuuuuuuu/comments/*
+// @include http://*reddit.com/*/comments/*
 //==/UserScript==
 
 function makeTitleSpan(a) {
